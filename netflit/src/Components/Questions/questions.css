@@ -1,0 +1,85 @@
+.question{
+    background: #000000;
+}
+.question h1{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    padding: 2rem;
+    color: #ffffff;
+}
+.question ul{
+   margin-right: 14rem;
+   margin-left: 14rem;
+
+}
+.question ul .net-questions .faq{
+    color: #ffffff;
+}
+.question ul .net-questions span{
+    color: #ffffff;
+}
+.question ul .net-questions{
+    display: flex;
+    justify-content: space-between;
+    background: #333333;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.question .question-sub{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 4rem;
+    padding-bottom: 2rem;
+    border-bottom: 3px solid #737373;
+}
+.question .question-sub p{
+    color: #ffffff;
+    padding: 1rem;
+    font-size: 10px;
+}
+.question .question-sub input{
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 18px;
+    outline: none;
+}
+.question .question-sub button{
+    background: orangered;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+
+@media (max-width: 800px){
+    .question ul{
+        margin-right: 2rem;
+        margin-left: 2rem;
+     
+    }
+     .question .question-sub input{
+        border: none;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        padding-right: 12px;
+        outline: none;
+    }
+    .question h1{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 17px;
+        padding: 2rem;
+        color: #ffffff;
+    }
+}
